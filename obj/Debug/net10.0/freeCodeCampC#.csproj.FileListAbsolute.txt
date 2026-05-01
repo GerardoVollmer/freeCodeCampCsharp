@@ -12,3 +12,4 @@ C:\freeCodeCampC#\obj\Debug\net10.0\refint\freeCodeCampC#.dll
 C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.pdb
 C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.genruntimeconfig.cache
 C:\freeCodeCampC#\obj\Debug\net10.0\ref\freeCodeCampC#.dll
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.sourcelink.json
