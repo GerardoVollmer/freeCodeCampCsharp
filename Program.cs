@@ -18,3 +18,35 @@ Console.WriteLine("Hello, Gerardito Vollmer! tengo {0} años", edad);*/
         Console.WriteLine($"Double: {num3}"); 
 */
 
+/*
+// Ejercicio 1: Incorporación de una instrucción if para mostrar diferentes mensajes según el valor de la variable total
+Random numAl = new Random();
+
+int num1 = numAl.Next(1, 7); // Número entre 1 y 6 (inclusive)
+int num2 = numAl.Next(1, 7); 
+int num3 = numAl.Next(1, 7); 
+
+int sumTotal = num1 + num2 + num3;
+
+Console.WriteLine($"Numero 1: {num1} + \nNumero 2: {num2} + \nNumero 3: {num3} = \nTotal: {sumTotal}");
+
+if (sumTotal > 14)
+{
+    Console.WriteLine("Haz ganado el primer premio");
+}
+if (sumTotal < 15)
+{
+    Console.WriteLine("Sorry, You lose. :(");
+}
+*/
+
+// Expresion booleana con string.Contains(), evalua si una cadena contiene otra
+string message = "the quick brown fox jump over the lazy dog.";
+bool result = message.Contains("fox");
+
+Console.WriteLine(result);
+
+if (message.Contains("fox"))
+{
+    Console.WriteLine("What does the fox say?");
+}
