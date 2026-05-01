@@ -1,0 +1,14 @@
+C:\freeCodeCampC#\bin\Debug\net10.0\freeCodeCampC#.exe
+C:\freeCodeCampC#\bin\Debug\net10.0\freeCodeCampC#.deps.json
+C:\freeCodeCampC#\bin\Debug\net10.0\freeCodeCampC#.runtimeconfig.json
+C:\freeCodeCampC#\bin\Debug\net10.0\freeCodeCampC#.dll
+C:\freeCodeCampC#\bin\Debug\net10.0\freeCodeCampC#.pdb
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.AssemblyInfoInputs.cache
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.AssemblyInfo.cs
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.csproj.CoreCompileInputs.cache
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.dll
+C:\freeCodeCampC#\obj\Debug\net10.0\refint\freeCodeCampC#.dll
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.pdb
+C:\freeCodeCampC#\obj\Debug\net10.0\freeCodeCampC#.genruntimeconfig.cache
+C:\freeCodeCampC#\obj\Debug\net10.0\ref\freeCodeCampC#.dll
