@@ -74,3 +74,12 @@ else
 
 //Ejercicio: Realización de una actividad 
 //de desafío para aplicar reglas de negocio
+
+
+
+// “Pedir un número y mostrar su doble”
+Console.WriteLine("Ingrese un numero");
+int num = int.Parse(Console.ReadLine());
+
+Console.WriteLine($"el doble es: {num * 2}");
+

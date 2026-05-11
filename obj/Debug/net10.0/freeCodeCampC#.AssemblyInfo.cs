@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("freeCodeCampC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ade9c342b038807ab3c0d53079472266fcbb0b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be4d16856e67531957a23122ad03c3f97860ba04")]
 [assembly: System.Reflection.AssemblyProductAttribute("freeCodeCampC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("freeCodeCampC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
