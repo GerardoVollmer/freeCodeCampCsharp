@@ -77,9 +77,19 @@ else
 
 
 
-// “Pedir un número y mostrar su doble”
-Console.WriteLine("Ingrese un numero");
-int num = int.Parse(Console.ReadLine());
+/*// “Pedir un número y mostrar su doble”
+Console.WriteLine("Ingrese un numero"); //Pido el número al usuario
+int num = int.Parse(Console.ReadLine()); //Convierto el numero ingresado a entero
 
-Console.WriteLine($"el doble es: {num * 2}");
+Console.WriteLine($"el doble es: {num * 2}"); //muestro el resultado doble en pantalla aplicando $ para interpolación de cadenas..*/
 
+//Pedir 2 numeros y mostrar su suma
+int num = 0, sum = 0, Total=0;
+
+Console.WriteLine("Ingrese su primer numero para sumar: ");
+num = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese su segundo numero para sumar: ");
+sum = int.Parse(Console.ReadLine());
+
+Total = num + sum;
+Console.WriteLine($"Total es: {Total}");
