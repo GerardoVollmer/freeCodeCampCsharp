@@ -77,13 +77,13 @@ else
 
 
 
-/*// “Pedir un número y mostrar su doble”
+/*// 1- “Pedir un número y mostrar su doble”
 Console.WriteLine("Ingrese un numero"); //Pido el número al usuario
 int num = int.Parse(Console.ReadLine()); //Convierto el numero ingresado a entero
 
 Console.WriteLine($"el doble es: {num * 2}"); //muestro el resultado doble en pantalla aplicando $ para interpolación de cadenas..*/
 
-//Pedir 2 numeros y mostrar su suma
+/*// 2- Pedir 2 numeros y mostrar su suma
 int num = 0, sum = 0, Total=0;
 
 Console.WriteLine("Ingrese su primer numero para sumar: ");
@@ -92,4 +92,87 @@ Console.WriteLine("Ingrese su segundo numero para sumar: ");
 sum = int.Parse(Console.ReadLine());
 
 Total = num + sum;
-Console.WriteLine($"Total es: {Total}");
+Console.WriteLine($"Total es: {Total}"); */
+
+// 3- Pedir un numero y decir si es par o impar
+/*int num=0;
+Console.WriteLine("ingerese un numero, y adivino si es par o impar: ");
+num = int.Parse(Console.ReadLine());
+
+if (num % 2 == 0)
+{
+    Console.WriteLine($"El numero {num} es par");
+}
+else
+{
+    Console.WriteLine($"El numero {num} es impar");
+}*/
+
+//4-Pedir edad y decir si es mayor de edad
+
+/*int edad = 0;
+
+Console.WriteLine("Ingrese su edad: ");
+edad = int.Parse(Console.ReadLine());
+
+if (edad >= 18)
+{
+    Console.WriteLine("Estas autorizado");
+}
+else if (edad < 18)
+{
+    Console.WriteLine("Denegado, espera a ser mayor");
+} */
+// Calcular el promedio de N numeros.
+/*Console.Write("¿Cuántos números desea ingresar?: ");
+int cantidad = int.Parse(Console.ReadLine());
+
+int suma = 0;
+
+for (int i = 1; i <= cantidad; i++)
+{
+    Console.Write("Ingrese número: ");
+    int numero = int.Parse(Console.ReadLine());
+
+    suma = suma + numero;
+}
+
+double promedio = (double)suma / cantidad;
+
+Console.WriteLine("El promedio es: " + promedio);*/
+
+/*int positivos = 0;
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.Write("Ingrese número: ");
+    int numero = int.Parse(Console.ReadLine());
+
+    if (numero > 0)
+    {
+        positivos++;
+    }
+}
+
+Console.WriteLine("Positivos: " + positivos);
+
+*/
+
+int edad = 0;
+int contador = 0;
+int acumulador = 0;
+float promedio = 0;
+
+do
+{
+    Console.Write("Ingrese las edades: ");
+    edad = int.Parse(Console.ReadLine());
+
+    contador++;
+    acumulador = acumulador + edad;
+
+}while(edad!=0);
+
+promedio = acumulador / contador;
+Console.WriteLine($"El promedio de alumno es: {promedio} ");
+
