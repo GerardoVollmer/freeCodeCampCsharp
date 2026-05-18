@@ -158,7 +158,7 @@ Console.WriteLine("Positivos: " + positivos);
 
 */
 
-int edad = 0;
+/*int edad = 0;
 int contador = 0;
 int acumulador = 0;
 float promedio = 0;
@@ -174,5 +174,43 @@ do
 }while(edad!=0);
 
 promedio = acumulador / contador;
-Console.WriteLine($"El promedio de alumno es: {promedio} ");
+Console.WriteLine($"El promedio de alumno es: {promedio} "); */
 
+/*int num1, num2, num3;
+
+num1 = int.Parse(Console.ReadLine());
+num2 = int.Parse(Console.ReadLine());
+num3 = num1 + num2;
+
+Console.WriteLine($"total sumado: {num3}"); */
+
+/*//Desafío: Mejora de la tasa de renovación de las suscripciones
+
+Random  random = new Random();
+
+int DaysUntilExpiration = random.Next(12); // Genera un número aleatorio entre 0 y 11
+int discountPercentage = 0;
+
+if (DaysUntilExpiration == 0)
+{
+    Console.WriteLine("Your suscription has expired.");
+}
+else if (DaysUntilExpiration == 1)
+{
+    Console.WriteLine("Your subscription expires within a day!");
+    discountPercentage = 20;
+}
+else if (DaysUntilExpiration <= 5)
+{
+    Console.WriteLine($"Your subscription expires in {DaysUntilExpiration} days.");
+    discountPercentage = 10;
+}
+else if (DaysUntilExpiration <= 10)
+{
+    Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
+
+if (discountPercentage > 0)
+{
+    Console.WriteLine($"Renew now and save {discountPercentage}%.");
+} */
